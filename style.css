@@ -38,19 +38,11 @@ table tr td{
     color: black;
 }
 
-table tr td:hover{
-    cursor: pointer!important;
-    background-color: #008CFE!important;
-}
-
 @media (max-width: 800px){
     
     table tr td{
         width: 20vw;
         height: 20vw;
     }
-
-    table tr td:hover{
-        background-color: none;
-    }
+    
 }
